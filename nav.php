@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link" href="variable.php">Variable</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Mortgage.php">Mortgage</a>
+        </li>
 
         <li class="nav-item">
           <a class="nav-link" href="conditions.php">Condition</a>
