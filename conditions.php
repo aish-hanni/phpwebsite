@@ -9,18 +9,42 @@
     <hr>
 
     <?php 
+
       $name = "Adam Waheed";
       
-      $age = 19;
+      $marks = 100;
 
-      if($age>=18)
+      $grade = "F";
+
+      if($marks>=95)
       {
-        echo "you are Eligible for Voting";
+        $grade = "A+";
       }
-      else
-      {
-        echo "you are not Eligible for Voting";
+      else if($marks>=85){
+        $grade = "A";
       }
+      else if($marks>=75){
+        $grade = "B";
+      }
+      else if($marks>=65){
+        $grade = "C";
+      }
+      else if($marks>=50){
+        $grade = "D";
+      } 
+      else if($marks<50){
+        $grade = "F";
+      }
+      else if($marks<10){
+        $grade = "X";
+      }else{
+        $grade = "U";
+      }
+
+
+      echo $name ." got ". $grade . " Grade";
+
+      
 
     ?>
 
