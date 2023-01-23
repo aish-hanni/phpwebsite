@@ -19,6 +19,19 @@
         <li class="nav-item">
           <a class="nav-link" href="conditions.php">Condition</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="loop.php">Loop</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="loopwithArray.php">Loop with Array</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="multiDimensionArray.php">multi dimension Array</a>
+        </li>
+       
        
       </ul>
       <form class="d-flex" role="search">
