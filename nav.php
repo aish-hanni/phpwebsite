@@ -16,6 +16,10 @@
         <li class="nav-item">
           <a class="nav-link" href="conditions.php">Condition</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="loop.php">Loop</a>
+        </li>
        
       </ul>
       <form class="d-flex" role="search">
