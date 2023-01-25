@@ -20,16 +20,47 @@
           <a class="nav-link" href="conditions.php">Condition</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="loop.php">Loop</a>
-        </li>
+    
 
-        <li class="nav-item">
-          <a class="nav-link" href="loopwithArray.php">Loop with Array</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Array
+          </a>
+          <ul class="dropdown-menu">
+            <li>  <a class="nav-link" href="mango.php">mango</a></li>
+            <li> <a class="nav-link" href="loop.php">Loop</a></li>
+          </ul>
         </li>
+       
+
 
         <li class="nav-item">
           <a class="nav-link" href="multiDimensionArray.php">multi dimension Array</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Loop
+          </a>
+          <ul class="dropdown-menu">
+            <li> <a class="nav-link" href="loop.php">Loop</a></li>
+            <li> <a class="nav-link" href="mango.php">mango</a></li>
+            <li>   <a class="nav-link" href="loopPractical.php">loopPractical</a></li>
+            <li class="nav-item">
+          <a class="nav-link" href="loopwithArray.php">Loop with Array</a>
+          </li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Form
+          </a>
+          <ul class="dropdown-menu">
+            <li> <a class="nav-link" href="get.php">Get</a></li>
+            <li> <a class="nav-link" href="post.php">Post</a></li>
+          </ul>
         </li>
        
        
