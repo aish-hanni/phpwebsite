@@ -48,10 +48,27 @@
 
     ?>
 
-
-
     </div>
+    <div class="container">
+      <br>
+    <h1>Conditions.exercise</h1>
+    <hr>
+<?php
+$name = "You";
+$amount= 10000;
+$class=["business_class_tickets!","economy_class_tickets!"];
 
+if($amount===10000){
+  $type = $class[0];
+}
+elseif($amount<6000)
+{
+  $type = $class[1];
+} 
+echo $name ." "."get"." ". $type;
+?>
+
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
